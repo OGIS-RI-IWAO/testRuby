@@ -4,4 +4,4 @@ rvm:
 bundler_args: "--without development"
 before_install:
   - gem install bundler --pre
-script: "ruby -I test test\test_foo.rb"
+script: "ruby -I test test/test_foo.rb"
