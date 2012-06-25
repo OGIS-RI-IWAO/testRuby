@@ -1,4 +1,7 @@
 language: ruby
 rvm:
-    - 1.9.3
-script: bundle exec rspec spec
+  - 1.9.3
+bundler_args: "--without development"
+before_install:
+  - gem install bundler --pre
+script: "ruby -I test test\test_foo.rb"
