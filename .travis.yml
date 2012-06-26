@@ -3,4 +3,4 @@ rvm:
   - 1.9.3
 script: 
   - "ruby -I test test/*"
-  - "rspec spec/*"
+  - "spec spec/*"
