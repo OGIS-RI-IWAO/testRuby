@@ -23,37 +23,26 @@ Usage
     └─test
             test_foo.rb
 
+Test
+------
 ### 単体テスト ###
 test/* をテスト実行します
 
 `ruby -I test test/*`
-
-パラメータの解説
-----------------
-リストの間に空行を挟むと、それぞれのリストに `<p>` タグが挿入され、行間が
-広くなります。
- 
-    def MyFunction(param1, param2, ...)
- 
-+   `param1` :
-    _パラメータ1_ の説明
- 
-+   `param2` :
-    _パラメータ2_ の説明
 
 ### Rspecテスト
 Gemfile, Gemfile.lock, Rakefileと共に動きます。
 
 `rake spec`
 
-- Gemfile
+##### Gemfile
 
     source "https://rubygems.org"
     
     gem 'rake',           :require => false
     gem 'rspec',          :require => false
 
-- Gemfile.lock
+##### Gemfile.lock
 
     GEM
       remote: https://rubygems.org/
@@ -76,7 +65,7 @@ Gemfile, Gemfile.lock, Rakefileと共に動きます。
       rake
       rspec
 
-- Rakefile
+##### Rakefile
 
     # coding: utf-8
     
