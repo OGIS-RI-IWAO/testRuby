@@ -81,9 +81,9 @@ Gemfile, Gemfile.lock, Rakefileと共に動きます。
 
 ライセンス
 ----------
-Copyright &copy; 2011 xxxxxx
+Copyright &copy; 2012 iwao_harada  
 Licensed under the [Apache License, Version 2.0][Apache]
-Distributed under the [MIT License][mit].
+Distributed under the [MIT License][mit].  
 Dual licensed under the [MIT license][MIT] and [GPL license][GPL].
  
 [Apache]: http://www.apache.org/licenses/LICENSE-2.0
