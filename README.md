@@ -47,12 +47,14 @@ Gemfile, Gemfile.lock, Rakefile‚Æ‹¤‚É“®‚«‚Ü‚·B
 `rake spec`
 
 - Gemfile
+
     source "https://rubygems.org"
     
     gem 'rake',           :require => false
     gem 'rspec',          :require => false
 
 - Gemfile.lock
+
     GEM
       remote: https://rubygems.org/
       specs:
@@ -75,6 +77,7 @@ Gemfile, Gemfile.lock, Rakefile‚Æ‹¤‚É“®‚«‚Ü‚·B
       rspec
 
 - Rakefile
+
     # coding: utf-8
     
     task :default => [:spec]
