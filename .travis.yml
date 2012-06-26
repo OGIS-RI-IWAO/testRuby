@@ -1,6 +1,7 @@
 language: ruby
 rvm:
   - 1.9.3
-script: 
+script:
+  - "bundle rspec spec"
   - "ruby -I test test/*"
   - "spec spec/*"
